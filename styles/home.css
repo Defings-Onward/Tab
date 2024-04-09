@@ -1,0 +1,51 @@
+#head{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    background-color: rgb(9, 56, 9);
+    height: 240px;
+    border-radius: 30px;
+}
+#jamb_cover{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: start;
+}
+.year{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 60px;
+    font-weight:600;
+    margin: 0px;
+
+}
+span{
+    font-size: 42px;
+    font-weight: 200;
+    opacity: 0.9;
+    margin-left: 2px;
+    margin: 0px;
+}
+.jamb{
+    font-size: 130px;
+    font-family: 'calibri';
+    font-weight: 800;
+    margin-top: -59px;
+    margin-bottom: 0;
+    color: rgba(0, 12000, 0,8);
+    height: fit-content;
+}
+.cbt{
+    font-family: 'Poppins';
+    color: rgb(247, 239, 239);
+    font-size: 33.9px;
+    margin-top: -40px;
+
+}
