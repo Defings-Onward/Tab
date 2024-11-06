@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/signin.css">
+    <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
+    <script>
+      $(document).ready(function() {
+      $('.btn-next').click(function() {
+				$(".in-case").load("2nd-stage.html")
+      });
+                $('.btn-previous').click(function() {
+                $(".in-case").load("1st-stage.html")
+                    
+       
+      });
+    
+    });
+    </script>
+</head>
+<body>
+    <div class="ccc">
+        <div class="nervous">
+        <div class="names">
+            <div class="item">
+                    <label>Firstname:</label>
+                    <input type="text" placeholder="Enter Firstname" class="inputs-p">
+            </div>
+            <div class="item">
+                    <label>Lastname:</label>
+                    <input type="text" placeholder="Enter Lastname" class="inputs-p">
+            </div>
+            </div>
+            <div class="items">
+                    <label>Username:</label>
+                    <input type="name" placeholder="Enter Your Username" class="inputs">
+            </div>
+            <div class="items">
+                <label>Email:</label>
+                <input type="email" placeholder="Enter Your Email" class="inputs">
+            </div>
+            <div class="names">
+                <div class="item">
+                    <label>Date of Birth:</label>
+                    <input type="date"  class="inputs-p">
+                </div>
+                <div class="item">
+                    <label>Sex:</label>
+                    <select class="inputs-p selt">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="p">Prefer not to say</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="items">
+                <label>Country:</label>
+                <input type="text" placeholder="Enter Your Country" class="inputs">
+            </div>
+            <div class="items">
+                <label>Phone Number:</label>
+                <input type="tel" placeholder="Enter Your Phone Number" class="inputs">
+            </div>
+    </div>
+</div>
+
+</body>
+</html>

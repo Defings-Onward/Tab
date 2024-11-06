@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/signin.css">
+    <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
+    <script>
+      $(document).ready(function() {
+      $('.btn-next').click(function() {
+				$(".in-case").load("3rd-stage.html")
+      });
+			$('.btn-previous').click(function() {
+				$(".in-case").load("2nd-stage.html")
+                    
+       
+      });
+    
+    });
+    </script>
+</head>
+<body>
+    <div class="ccc">
+        <div class="nervous">
+  
+            <div class="items">
+                    <label>Name of Institution:</label>
+                    <input type="text" placeholder="Enter Institution" class="inputs">
+            </div>
+            <div class="items">
+                <label>Course Of Study:</label>
+                <input type="text" placeholder="Enter Course" class="inputs">
+            </div>
+            <div class="items">
+                <label>Country of Institution:</label>
+                <input type="text" placeholder="Enter the Country" class="inputs">
+            </div>
+            <div class="items">
+                <label>City of Institution:</label>
+                <input type="tel" placeholder="Enter City" class="inputs">
+            </div>
+    </div>
+</div>
+
+</body>
+</html>

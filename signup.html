@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In/Sign Up</title>
+		<script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="styles/signin.css">
+    <link rel="icon" href="icons/logoalone.png">
+		<script>
+			$(document).ready(function() {
+				$(".in-case").load("signup-templates/1st-stage.html")
+				
+      $('.btn-next').click(function() {
+				$(".in-case").load("signup-templates/2nd-stage.html")
+      });
+                $('.btn-previous').click(function() {
+                $(".in-case").load("1st-stage.html")
+                    
+       
+      });
+    
+    
+        
+        });
+		</script>
+</head>
+<body>
+    <div id="nav">
+			<div class="sign">
+				<div id="signups">Sign up/</div>
+				<div id="signins">Sign in</div>
+			</div>
+			<div class="signs">
+				<div class="r-div"><img src="icons/creditcard.png" class="cd"> <div class="about">Pay Now</div></div>
+				<div class="r-div"><img src="icons/about.png" class="cds"> <div class="about">About Rooket</div></div>
+			</div>
+		</div>
+    <div id="image"><div class="contain"><img src="image/pimage-blur.png" class="imagesb"><div class="imagess"><video autoplay muted class="vid"><source src="image/istockphoto-869584204-640_adpp_is.mp4" type="video/mp4"></video></div></div></div>
+    <div id="back-color">
+        <div class="css-scd">
+            <div class="main-idea">
+							  
+                <div class="logo"><img src="icons/logo.png" class="logo-img"></div>
+
+								
+            		<iframe  src="signup-templates/1st-stage.html" class="iframes"></iframe>
+
+					<div class="btns">
+						<button class="btn-previous">Back</button>
+						<button class="btn-next" >Next</button></div>	
+								</div>
+						</div>
+        </div>
+    </div>
+		<p class="p">"Gain access and experience <br>to live CBT questions  before <br>your actual Exams"</p>
+		<script src="scripts/pics.js"></script>
+</body>
+</html>
